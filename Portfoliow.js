@@ -1,6 +1,6 @@
 
 function downloadCV() {
-    const cvURL = "C:\\Users\\HARDIK MALVIYA\\Downloads\\resume.pdf";
+    const cvURL = "resume.pdf";
     
     window.open(cvURL, '_blank');
   }
