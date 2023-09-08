@@ -1,6 +1,9 @@
-
 function downloadCV() {
     const cvURL = "resume.pdf";
+    const anchor = document.createElement("a");
+    anchor.href = cvURL;
+    anchor.download = "resume.pdf";
+    anchor.click();
     
     window.open(cvURL, '_blank');
   }
