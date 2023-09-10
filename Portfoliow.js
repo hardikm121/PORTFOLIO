@@ -1,8 +1,8 @@
 function downloadCV() {
-    const cvURL = "resume.pdf";
+    const cvURL = "Resume.pdf";
     const anchor = document.createElement("a");
     anchor.href = cvURL;
-    anchor.download = "resume.pdf";
+    anchor.download = "Resume.pdf";
     anchor.click();
     
     window.open(cvURL, '_blank');
