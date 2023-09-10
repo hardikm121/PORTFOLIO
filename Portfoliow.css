@@ -370,7 +370,7 @@ div[role="progressbar"] {
 }
 
 
-/*CONTACT US*/
+/*CONTACT Me*/
 .contact form {
 	width: 66%;
 	margin: 0px auto;
@@ -398,6 +398,14 @@ textarea {
 	border: none;
 	font-size: 16px;
 }
+
+.contact-button:hover {
+  background-color: #05ef67;
+}
+.contact-button {
+  transition: background-color .1s ease;
+}
+
 .contact h3 {
 	font-size: 26px;
 	text-align: center;
@@ -449,7 +457,6 @@ textarea {
     border-radius: 4px;
     cursor: pointer;
     margin-left: 440px;
-  
     box-shadow: 0px 10px 25px rgba(5, 5, 247, 0.958);
   }
   
@@ -1070,7 +1077,7 @@ textarea {
   .Project-button {
     font-size: 36px;
     padding: 8px 16px;
-    margin-left: 0;
+    margin-left: 150px;
   }
 
 .wrapper {
